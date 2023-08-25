@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Person's Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Libre+Baskerville&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 80px;
+            background-color: #fae5df;
+            /* #f5cac2*/
+        }
+
+        header {
+
+            background-color: #d26767;
+            border: solid rgba(85, 7, 7, 0.595) 6px;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .profile-picture {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .profile-picture img {
+            border: solid rgb(172, 104, 104) 3px;
+
+            border-radius: 50%;
+            width: 350px;
+            height: 300px;
+            margin-top: 50px;
+
+        }
+
+        .about-section {
+            text-align: center;
+        }
+
+        .struggles,
+        .achievements {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .struggles {
+            border: solid white 2px;
+            margin-top: 20px;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            height: 580px;
+            margin-right: 200px;
+            ;
+            margin-left: 200px;
+            background-color: #f5cac2;
+            /*#f2ebe9*/
+        }
+
+        .achievements {
+            border: solid white 2px;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            height: 760px;
+            margin-right: 200px;
+            ;
+            margin-left: 200px;
+            background-color: #f5cac2;
+            /*#fae5df*/
+        }
+
+        .about-section {
+            border: solid white 2px;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            height: 425px;
+            margin-right: 200px;
+            ;
+            margin-left: 200px;
+            background-color: #f5cac2;
+        }
+
+        h1 {
+            font-family: 'Cormorant SC', serif;
+            font-family: 'Libre Baskerville', serif;
+        }
+
+        .thumbnail {
+            top: -50px;
+            left: -35px;
+            display: block;
+            z-index: 999;
+            cursor: pointer;
+            -webkit-transition-property: all;
+            -webkit-transition-duration: 0.3s;
+            -webkit-transition-timing-function: ease;
+        }
+
+        /*change the number below to scale to the appropriate size*/
+        .thumbnail:hover {
+            transform: scale(1.2);
+
+        }
+
+        footer {
+            /* width: 1000px; */
+            height: 20px;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>JAWAHARLAL NEHRU</h1>
+    </header>
+    <section class="profile-picture">
+        <img src="images.jpeg" class="thumbnail" alt="Profile Picture">
+    </section>
+    <section class="about-section">
+        <h1>ABOUT</h1>
+        <hr>
+        <p>
+            Jawaharlal Nehru was a prominent leader and statesman who played a crucial role in shaping India's destiny
+            during the nation's struggle for independence and its early years as an independent country. Born on
+            November 14, 1889, in Allahabad, India, he hailed from a distinguished political family. Nehru was deeply
+            influenced by the ideals of Mahatma Gandhi and became an ardent follower of the non-violent civil
+            disobedience movement. As a leader of the Indian National Congress, he became the first Prime Minister of
+            independent India in 1947. Fondly referred to as "Pandit Nehru," he was a visionary and a staunch advocate
+            of secularism, democracy, and social justice. His leadership saw the formulation of several key policies,
+            including the establishment of a socialist mixed economy and a focus on industrialization. Despite facing
+            various challenges, he laid the foundation for India's modernization and development. Nehru's charisma,
+            eloquence, and dedication to democratic principles earned him immense respect both within the country and on
+            the international stage. His legacy as an influential and enduring figure in Indian history continues to
+            inspire generations. <br> <br>
+
+        </p>
+        <br>
+    </section>
+    <section class="struggles" align>
+
+        <h1>STRUGGLES</h1>
+        <hr>
+        <p>
+        <ul>
+
+            <li> Struggle for India's Independence: Nehru was deeply involved in the freedom movement, participating in
+                civil disobedience campaigns and facing imprisonment on several occasions for his active role in the
+                fight
+                against British colonial rule.</li><br>
+
+            <li> Partition of India: Nehru had to navigate the challenging task of managing the partition of India into
+                two separate nations, India and Pakistan, leading to widespread communal violence and the displacement
+                of
+                millions.</li><br>
+
+            <li> Economic Challenges: As the first Prime Minister of independent India, Nehru faced significant economic
+                challenges, including poverty, unemployment, and the need to build a strong industrial base.</li><br>
+
+            <li>Kashmir Issue: Nehru grappled with the contentious issue of Kashmir's accession to India, leading to the
+                Indo-Pakistani War in 1947-1948, which resulted in ongoing tensions between the two countries.</li> <br>
+
+            <li> China-India Relations: Nehru's efforts to establish friendly relations with China faced a setback with
+                the Sino-Indian War in 1962, leading to territorial losses and a strain on bilateral ties.</li><br>
+
+        </ul>
+        </p>
+    </section>
+    <section class="achievements">
+        <h1>ACHIEVEMENTS</h1>
+        <hr>
+        <p>
+        <ul>
+            <li> Architect of Modern India: Nehru's leadership and vision were instrumental in laying the foundation for
+                modern India by promoting scientific and industrial growth, building infrastructure, and emphasizing
+                education and technology.</li> <br>
+
+            <li>Non-Aligned Movement: As one of the key founders of the Non-Aligned Movement, Nehru played a significant
+                role in advocating for a neutral stance during the Cold War, championing the cause of developing
+                nations.</li> <br>
+
+            <li>Panchsheel: Nehru's diplomatic initiative of the Five Principles of Peaceful Coexistence, known as
+                Panchsheel, aimed to foster peaceful relations between nations, promoting peaceful coexistence and
+                cooperation.</li> <br>
+
+            <li>Social Reforms: Nehru supported various social reforms, including women's rights, agrarian reforms, and
+                efforts to uplift marginalized communities, contributing to the country's social progress. </li> <br>
+
+            <li>Educational Institutions: Nehru's government established several premier educational institutions like
+                the Indian Institutes of Technology (IITs) and the Indian Institutes of Management (IIMs), which became
+                instrumental in producing skilled professionals for the country's growth.</li> <br>
+
+            <li> Constitutional Framework: Nehru played a vital role in shaping India's democratic constitution,
+                ensuring
+                a strong and inclusive legal framework for the nation.</li> <br>
+
+            <li> International Standing: Nehru's statesmanship and international engagements helped India gain
+                recognition
+                on the global stage and build strong diplomatic ties with various countries.</li> <br>
+        </ul>
+        </p>
+    </section>
+    <br>
+    <center> For more information visit <a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru">Click here</a></center>
+</body>
+<br>
+<footer>
+    <center> &copy;shalini_thakur </center>
+</footer>
+
+</html>
